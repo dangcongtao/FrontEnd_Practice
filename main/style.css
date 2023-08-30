@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* css selector select to */
+body {
+    padding: 20px;
+}
+
+/* .container {
+    padding: 10px;
+} */
+
+.item {
+    background-color: goldenrod;
+    border: 1px solid grey;
+    height:  50px;
+}
