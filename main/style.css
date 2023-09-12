@@ -17,3 +17,12 @@ body {
     border: 1px solid grey;
     height:  50px;
 }
+
+/* select a class */
+.container {
+    display: grid;
+
+    /* devide to x columns(2 in this case)*/
+    /* 1st column lenght 300px, 2nd is 100px*/
+    grid-template-columns: 300px 100px;
+}
