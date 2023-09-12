@@ -26,6 +26,11 @@ body {
     display: grid;
 
     /* devide to x columns(2 in this case)*/
-    /* 1st column lenght 300px, 2nd is 100px*/
-    grid-template-columns: 300px 100px;
+    /* 1st column lenght 300px, 2nd is 100px */
+    /* these size is fixed, but able to use fr instead*/
+    /* grid-template-columns: 300px 100px; */
+
+    /* fr stand for `fraction` là độ dài tương đối(hơi khó sub) */
+    /* use this make it alike `flexbox` */
+    grid-template-columns: 1fr 2fr;
 }
