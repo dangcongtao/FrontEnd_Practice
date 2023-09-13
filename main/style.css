@@ -32,5 +32,10 @@ body {
 
     /* fr stand for `fraction` là độ dài tương đối(hơi khó sub) */
     /* use this make it alike `flexbox` */
+    /* can do the same with rows */
     grid-template-columns: 1fr 2fr;
+
+    /* set height for a row, able to use minmax() */
+    /* minmax: set min value is 50px, auto is maximum value it can reach */
+    grid-auto-rows: minmax(50px, auto);
 }
